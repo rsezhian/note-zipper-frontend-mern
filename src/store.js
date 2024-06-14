@@ -7,7 +7,8 @@ import {
 // combineReducers -- combine all of the reducers into one unit into one single reducers
 // applyMiddleware -- help us to add a middleware function
 import { thunk } from "redux-thunk";
-import { composeWithDevTools } from "redux-devtools-extension";
+import { composeWithDevTools } from "@redux-devtools/extension";
+// import { composeWithDevTools } from "redux-devtools-extension";
 import {
   userLoginReducer,
   userRegisterReducer,
